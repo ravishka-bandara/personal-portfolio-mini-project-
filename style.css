@@ -19,3 +19,15 @@ nav{
     top: 0;
     z-index: 1000;
 }
+
+nav ul li{
+    margin: 0rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
