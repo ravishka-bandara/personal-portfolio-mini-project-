@@ -10,3 +10,12 @@ body{
     color: #000000;
     background-color: #ffc2d1;
 }
+
+nav{
+    background: #c1121f;
+    padding: 1rem;
+    position: fixed;
+    width: 100;
+    top: 0;
+    z-index: 1000;
+}
