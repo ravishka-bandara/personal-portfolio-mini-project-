@@ -9,26 +9,41 @@ body{
     line-height: 1.6;
     color: #000000;
     background-color: #c1121e4f;
+    
+}
+
+html {
+    scroll-padding-top: 80px;/*fix for scroll issue*/
 }
 
 nav{
     background: #c1121e4f;
-    padding: 1rem;
+    padding: 1rem 2rem;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 }
 
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0; 
+}
+
 nav ul li{
-    margin: 0rem;
+    margin: 0;
 }
 
 nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover{
@@ -37,9 +52,10 @@ nav ul li a:hover{
 
 #home{
     text-align: center;
-    padding: 8rem 2rem 4rem;
-    background: linear-gradient(135deg, #c1121e4f 100%);
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #c1121e4f 0%, #5f0303e3 100%);
     color: white;
+    padding-top: 80px; /*increse nav is taller*/
 }
 
 
@@ -210,3 +226,5 @@ nav a:hover {
     margin: 0.1rem 0;
     font-size: 1.1rem;
 }
+
+
