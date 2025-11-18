@@ -150,3 +150,43 @@ nav a:hover {
 .skill:hover{
     transform: translateY(-15px); /* button jump y height*/
 }
+
+
+/*porject section*/
+
+#projects{
+    padding: 2rem 4rem ;
+    background: #ecf0f1;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#projects h2{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.project{
+    background: #f0a3a8;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border-left: 5px solid #910606;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.project h3{
+    color: #ecf0f1;
+    margin-bottom: 1rem;
+}
+
+.project ul{
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.project ul li{
+    margin-bottom: 0.5rem;
+}
