@@ -113,3 +113,40 @@ nav a:hover {
     line-height: 1.8;
 }
 
+/*skill section*/
+
+#skills{
+    padding: 4rem 2rem;
+    background: #ecf0f1;
+    text-align: center;
+}
+
+#skills h2{
+    color: #c1121f;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill{
+    background: #5f0303e3;
+    color: #ecf0f1;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s; /*button jump speed*/
+}
+
+.skill:hover{
+    transform: translateY(-15px); /* button jump y height*/
+}
