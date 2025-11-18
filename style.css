@@ -14,7 +14,7 @@ body{
 nav{
     background: #c1121e4f;
     padding: 1rem;
-    position: fixed;
+    position: static;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -62,7 +62,7 @@ nav ul li a:hover{
     opacity: 0.9;
 }
 
-
+/*navigation bar*/
 
 nav ul {
       list-style: none;
@@ -87,7 +87,7 @@ nav a:hover {
       color: #34a0a4;
     }
 
-
+/*about section*/
 
 #about{
     padding: 4rem 2rem;
@@ -112,3 +112,4 @@ nav a:hover {
     font-size: 1.1rem;
     line-height: 1.8;
 }
+
