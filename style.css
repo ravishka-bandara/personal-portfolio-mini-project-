@@ -190,3 +190,23 @@ nav a:hover {
 .project ul li{
     margin-bottom: 0.5rem;
 }
+
+/*contact section*/
+
+#contact{
+    background: #910606;
+    color: #ecf0f1;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+#contact h2{
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#contact p{
+    margin: 0.1rem 0;
+    font-size: 1.1rem;
+}
