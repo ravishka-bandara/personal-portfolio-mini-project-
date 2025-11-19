@@ -437,7 +437,8 @@ nav{
 
     .logo{
         padding-left: 0.5rem;
-        transition: opacity 0.3s ease;
+        transition: all 1s ease; /*smooth transitions*/
+        opacity: 1;  /*start fuly visible*/
     }
 
     .hamburger{
@@ -449,6 +450,7 @@ nav{
     .logo.hidden{
         opacity: 0;
         visibility: hidden;
+        transform: translateX(-10px);
     }
 
     .nav-menu{
