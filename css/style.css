@@ -511,6 +511,8 @@ nav{
  }
 
 
+ /*logo preview model*/
+
 .logo-modal{
     display: none;
     position: fixed;
@@ -531,7 +533,7 @@ nav{
 }
 
 .modal-content{
-    background: linear-gradient(135deg, #c1121e 0%, #5f0303e3 100%);
+    background: linear-gradient(135deg, #3f3d3d 0%, #5f0303e3 100%);
     margin: auto;
     padding: 2rem;
     border-radius: 20px;
