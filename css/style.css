@@ -437,10 +437,18 @@ nav{
 
     .logo{
         padding-left: 0.5rem;
+        transition: opacity 0.3s ease;
     }
 
     .hamburger{
         padding-right: 0.5rem;
+    }
+
+    /*logo disappeare when scrolling*/
+
+    .logo.hidden{
+        opacity: 0;
+        visibility: hidden;
     }
 
     .nav-menu{
