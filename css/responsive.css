@@ -1,6 +1,11 @@
 /* ------ make mobile responsive------*/
 
- @media screen and (max-width:768px) {   /*edjusting navigation for others*/
+ @media screen and (max-width:768px) { /*edjusting navigation for others*/
+
+
+    .logo-img{
+        height: 50px; /*make smaller on phone*/
+    }
     
     nav ul{
         gap: 1rem;
