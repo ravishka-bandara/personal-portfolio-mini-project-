@@ -19,7 +19,7 @@ html {
 }
 
 nav{
-    background: #c1121e4f;
+   /* background: #c1121e4f;*/
     padding: 1rem 2rem;
     position:static;
     width: 100%;
@@ -58,6 +58,26 @@ nav ul li a:hover{
     background: linear-gradient(135deg, #c1121e4f 0%, #5f0303e3 100%);
     color: white;
     padding-top: 80px; /*increse nav is taller*/
+    /*add animation for the home page*/
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+/*home page animaton key frame*/
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 
