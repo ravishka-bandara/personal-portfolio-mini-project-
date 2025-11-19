@@ -458,13 +458,17 @@ nav{
         left: -100%;
         top: 0;
         flex-direction: column;
-        background-color: #e28f95;
+        background: rgba(255, 255, 255, 0.001);  /*  rgba(92, 15, 15, 0.8); Dark transparent */
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
         width: 100%;
         height: 100vh;
         text-align: center;
         transition: 0.3s;
         padding-top: 80px;
         gap: 0;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        transition: left 0.3s ease, background 0.3s ease, backdrop-filter 0.3s ease;
     }
 
     .nav-menu.active{
