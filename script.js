@@ -25,3 +25,31 @@ document.querySelectorAll('.nav-menu a').forEach(link =>{
         navMenu.classList.remove('active');
     });
 });
+
+
+
+//hide logo when scrolling on mobile
+
+function handleScroll(){
+    const logo = document.querySelector('.logo');
+    const hamburger = document.querySelector('.hamburger');
+
+    // only run phone screens
+
+    if(window.innerWidth <= 768){
+        if (window.scrollY > 100){ //after scroll 100 px
+            logo.classList.add('hidden');
+    } else {
+        logo.classList.remove('hidden');
+    }
+} else {
+    // always show on desktop
+    logo.classList.remove('hidden');
+}
+}
+
+
+//scroll event listners and  check on resize
+
+window.addEventListener('scroll', handleScroll);
+window.addEventListener('resize',handleScroll);
