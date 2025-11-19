@@ -11,18 +11,21 @@ function scrolltoprojects(){
 
 const hamburger=document.querySelector('.hamburger');
 const navMenu=document.querySelector('.nav-menu');
+const body = document.body;
 
 hamburger.addEventListener('click',()=>{
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    body.classList.toggle('menu-open'); //scroll lock
 });
 
 //closing the menu click on a link
 
 document.querySelectorAll('.nav-menu a').forEach(link =>{
-    link.addEventListener('click',()=>{
+    link.addEventListener('click',()=> {
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
+        body.classList.remove('menu-open'); // enable scroll again
     });
 });
 

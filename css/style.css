@@ -458,7 +458,7 @@ nav{
         left: -100%;
         top: 0;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.001);  /*  rgba(92, 15, 15, 0.8); Dark transparent */
+        background: rgba(32, 32, 32, 0.08);  /*  rgba(92, 15, 15, 0.8); Dark transparent */
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
         width: 100%;
@@ -483,6 +483,9 @@ nav{
         font-size: 1.2rem;
         padding: 1rem;
         display: block;
+        color: #251010b9;
+        font-size: 1.7rem;
+        font-weight: bold;
     }
 
     /*hamburger animation*/
@@ -498,4 +501,13 @@ nav{
     .hamburger.active .bar:nth-child(3){
         transform: rotate(-45deg) translate(6.5px, -6.5px);
     }
+ }
+
+/*disable scroll when menu open*/
+
+ body.menu-open{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
  }
