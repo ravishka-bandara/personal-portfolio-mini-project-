@@ -298,6 +298,20 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
+#copyright{
+    text-align: center; /*make block centered*/
+}
+
+
+#copyright p{
+    color: #ffffff;
+    background: #3333338f;
+    border-radius: 50px;
+    border: 1px solid #737272;
+    margin-top: 40px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem; /*UP RIGHT DOWN LEFT */
+    display: inline-block; /* border wrap over text */  
+}
 
 /* ------ make mobile responsive------*/
 
