@@ -20,7 +20,7 @@ html {
 
 nav{
    /* background: #c1121e4f;*/
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     position:fixed;
     width: 100%;
     top: 0;
@@ -355,10 +355,6 @@ nav{
         height: 50px; /*make smaller on phone*/
     }
     
-    nav ul{
-        gap: 1rem;
-        justify-content: center;
-    }
 
 /*hero section*/
 
@@ -419,9 +415,7 @@ nav{
         align-items: center;
     }
 
-    nav ul{
-        flex-wrap: wrap;
-    }
+   
  }
 
 
@@ -431,7 +425,11 @@ nav{
  @media screen and (max-width: 768px) {
     .hamburger{
         display: flex;
-    }    
+    }   
+    
+    nav{
+        padding: 1rem 0;
+    }
 
     .nav-container{
         padding: 0;
