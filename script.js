@@ -56,3 +56,40 @@ function handleScroll(){
 
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('resize',handleScroll);
+
+
+
+// logo preview moadl
+
+
+const logo = document.querySelector('.logo');
+const logoModal = document.getElementById('logoModal');
+const closeModal = document.getElementById('.close-modal');
+
+//open when logo clicked
+
+logo.addEventListener('click',()=>{
+    logoModal.classList.add('active');
+});
+
+// close modal when x clicked
+
+logoModal.addEventListener('click', ()=>{
+    logoModal.classList.remove('active');
+});
+
+//close model when click outside
+
+logoModal.addEventListener('click',(e)=>{
+    if (e.target===logoModal){
+        logoModal.classList.remove('active');
+    }
+});
+
+//close model with escape key
+
+Document.addEventListener('keydown',(e)=>{
+    if (e.key === 'escape' && logoModal.classList.contains('active')){
+        logoModal.classList.remove('active');
+    }
+});
