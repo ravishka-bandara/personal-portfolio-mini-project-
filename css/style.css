@@ -137,6 +137,17 @@ nav ul li a:hover{
     font-size: 1.2rem;
     opacity: 0.9;
 }
+/*logo image*/
+
+.logo{
+    z-index: 1001;
+}
+
+.logo-img{
+    height: 40px;
+    width: auto;
+}
+
 
 /*navigation bar*/
 
