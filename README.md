@@ -19,9 +19,9 @@
 
 ### 🚧 **Currently Working On**
 [ ] Fixing navigation scroll spacing completely
-[ ] Perfecting mobile responsiveness
-[ ] Adding hamburger menu for mobile
-[ ] Testing across different browsers
+[X] Perfecting mobile responsiveness
+[X] Adding hamburger menu for mobile
+[X] Testing across different browsers
 [ ] Adding missing project images
 
 ### 📋 **Immediate Next Steps**
