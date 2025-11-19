@@ -313,3 +313,62 @@ nav a:hover {
     display: inline-block; /* border wrap over text */  
 }
 
+/*====hamberger menu styles======*/
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 1001;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li{
+    margin: 0;
+}
+
+.nav-menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover{
+    color: #34a0a4;
+}
+
+
+/* hamburger icon */
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background: #ffffff;
+    margin: 3px 0;
+    transition: 0.3s;
+}
