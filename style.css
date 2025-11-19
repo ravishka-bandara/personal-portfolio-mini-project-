@@ -80,6 +80,27 @@ nav ul li a:hover{
     }
 }
 
+/*hero section*/
+
+.cta-button{
+    display: block;                 /*make button a block to make center*/
+    margin: 1rem auto 1rem auto;    /*make button center order goes as NSEV*/
+    background: transparent;
+    color: #ecf0f1;
+    border: 2px solid white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover{
+    background: white;
+    color: #c1121f;
+    transform: translateY(-3px);
+}
 
 .profile-photo{
     width: 300px;
