@@ -47,3 +47,10 @@
 [ ] PWA (Progressive Web App) features
 [ ] Database for dynamic projects
 
+
+## 📊 **Progress Overview**
+[Progress](https://stellar-praline-4f6781.netlify.app/) ****** temporary hosting on netilify **
+
+
+
+Last Updated: {2025-11-19}
