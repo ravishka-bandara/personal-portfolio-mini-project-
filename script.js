@@ -93,3 +93,45 @@ Document.addEventListener('keydown',(e)=>{
         logoModal.classList.remove('active');
     }
 });
+
+
+//===== desctop nav bar hiding while scrolling functionalities
+
+
+let scollTimeout;
+
+    function handleDesktopNavScroll(){
+        const nav = document.querySelector('nav');
+        const logoImg = document.querySelector('.logo-img');
+
+
+        //only run on desctop
+
+        if (window.innerWidth > 768){
+
+             //for add always not at top
+
+             if (window.scrollY > 100){
+                nav.classList.add('scrolled');
+                logoImg.classList.add('scrolled');
+             } else {
+                nav.classList.remove('scrolled');
+                logoImg.classList.remove('scrolled');
+             }
+
+
+             //hide nav bar when scrolling
+
+             nav.classList.add('hidden');
+
+             clearTimeout(scollTimeout); //clear timeout previous one
+
+             // show nav bar again after stop scrolling
+
+             scrollTimeout = setTimeout (() =>{
+                nav.classList.remove('hidden');
+             }, 150);  // show after 150 ms no scrolling can change time
+        }
+    }
+
+    window.addEventListener('scroll', handleDesktopNavScroll);
