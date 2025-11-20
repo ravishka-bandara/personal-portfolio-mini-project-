@@ -603,4 +603,20 @@ nav{
         width: 40px;
         transition: all 0.4s ease;
     }
+
+    /*for sectop logo and nav menu push to the corners*/
+
+    .nav-container{
+        padding: 0rem; /*add side padding*/
+    }
+
+    .logo{
+        margin-right: auto; /*push logo to left*/
+        padding-left: 0.5rem;
+    }
+
+    .nav-menu{
+        margin-left: auto; /*push nav menu to the right*/
+        padding-right: 0.5rem;
+    }
 }
