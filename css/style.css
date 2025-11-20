@@ -305,16 +305,12 @@ nav{
     font-size: 1.5rem;
     font-weight: bold;
     z-index: 1001;
-    margin-right: auto;
-    padding-left: 0.5rem;
 }
 
 .nav-menu{
     display: flex;
     gap: 2rem;
     list-style: none;
-    margin-left: auto;
-    padding-right: 0.5rem;
 }
 
 .nav-menu li{
