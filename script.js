@@ -60,11 +60,12 @@ logoModal.addEventListener('click',(e)=>{
 
 //close model with escape key
 
-Document.addEventListener('keydown',(e)=>{
+document.addEventListener('keydown',(e)=>{
     if (e.key === 'escape' && logoModal.classList.contains('active')){
         logoModal.classList.remove('active');
     }
 });
 
 
-// 
+// combine handle for logo mobile and desctop
+
