@@ -579,3 +579,28 @@ nav{
 .close-modal:hover{
     transform: scale(1.2);
 }
+
+/* desctop responsive setings for nav bar and logo functionalities*/
+
+@media screen and (min-width: 769px){
+    nav{
+        transition: transform 0.3s ease, background 0.4s ease, padding 0.4s ease;
+    }
+
+    nav.hidden{
+        transform: translateY(-100%);
+    }
+
+    nav.scrolled{
+        background: rgba(193, 18, 30, 0.95);
+        backdrop-filter: blur(15px);
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+        padding: 0.7rem 0;
+    }
+
+    .logo-img.scrolled{
+        height: 40px;
+        width: 40px;
+        transition: all 0.4s ease;
+    }
+}
