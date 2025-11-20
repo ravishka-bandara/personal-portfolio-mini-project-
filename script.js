@@ -69,3 +69,47 @@ document.addEventListener('keydown',(e)=>{
 
 // combine handle for logo mobile and desctop
 
+let scrollTimeout;
+
+function handleAllscroll(){
+    const logo = document.querySelector('.logo');
+    const nav = document.querySelector('nav');
+    const logoImg = document.querySelector('.logo-img');
+
+
+// mobile logo show and hide
+
+if(window.innerWidth <= 768){
+    if(window.scrollY > 100){
+        logo.classList.add('hidden');
+    } else {
+        logo.classList.remove('hidden');
+    }
+} else{
+    //always show on desktop
+    logo.classList.remove('hidden');
+
+    //desctop nav bar effects
+    if(window.scrollY >100){
+        nav.classList.add('scrolled');
+        logoImg.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+        logoImg.classList.remove('scrolled');
+    }
+
+
+    //hide nav bar when scrolling show when stopped scroll
+
+    nav.classList.add('hidden');
+    clearTimeout('scrollTimeout');
+    scrollTimeout = setTimeout(() => {
+        nav.classList.remove('hidden');
+        }, 550);
+    }
+}
+
+// event listners 
+
+window.addEventListener('scroll', handleAllscroll);
+window.addEventListener('resize', handleAllscroll);
