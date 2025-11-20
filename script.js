@@ -36,7 +36,7 @@ document.querySelectorAll('.nav-menu a').forEach(link =>{
 
 const logo = document.querySelector('.logo');
 const logoModal = document.getElementById('logoModal');
-const closeModal = document.getElementById('.close-modal');
+const closeModal = document.querySelector('.close-modal');
 
 //open when logo clicked
 
