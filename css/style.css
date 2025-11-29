@@ -32,7 +32,7 @@ nav{
 #home{
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, #c1121e4f 0%, #5f0303e3 100%);
+    /* background: linear-gradient(135deg, #c1121e4f 0%, #5f0303e3 100%); */
     color: white;
     padding-top: 80px; /*increse nav is taller*/
     /*add animation for the home page*/
@@ -84,6 +84,7 @@ nav{
     height: 300px;
     border-radius: 50%;
     border: 4px solid white;
+    margin-top: 100px;
     margin-bottom: 1rem;
     animation: pulse 3s infinite;
 }
