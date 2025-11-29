@@ -281,6 +281,54 @@ nav{
     display: inline-block; /* border wrap over text */  
 }
 
+/*contacts link styling*/
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.contact-btn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 12px 24px;
+    background: #5f0303e3;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-btn:active{
+    transform: translateY(-1px);
+}
+
+/*dif colours for different buttons*/
+
+.email-btn{
+    background: #c1121f;
+}
+
+.github-btn{
+    background: #555;
+}
+
+.contact-motto{
+    margin-top: 2rem;
+    font-style: italic;
+    opacity: 0.9;
+    font-size: 1.5rem !important; /* use this command like thing to forcly add it "!important" */
+}
+
+
+
 /*====hamberger menu styles======*/
 
 .nav{
@@ -391,8 +439,9 @@ nav{
     }
 
     .skill{
-        padding: 0.6rem 1rem;
+        padding: 10px 50px;
         font-size: 0.9rem;
+        background: #003f7a;
     }
 
 /*project section*/
@@ -402,6 +451,17 @@ nav{
     }
  }
 
+ /*contact section*/
+
+    .contact-links{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-btn{
+        padding: 10px 50px;
+    }
 
 
  /*===small phones==*/
