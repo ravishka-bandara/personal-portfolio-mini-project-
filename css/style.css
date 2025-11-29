@@ -311,6 +311,12 @@ nav{
     transform: translateY(-1px);
 }
 
+.btn-icon{
+    width: 20px;
+    height: 20px;
+    /*filter: brightness(0) invert(1);*/ /*make icons whitee*/
+}
+
 /*dif colours for different buttons*/
 
 .email-btn{
