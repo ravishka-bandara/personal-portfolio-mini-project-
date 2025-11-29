@@ -49,7 +49,7 @@
 
 
 ## 📊 **Progress Overview**
-[Progress](https://stellar-praline-4f6781.netlify.app/) ****** temporary hosting on netilify **
+[Progress](https://ravishka-bandara.github.io/personal-portfolio-mini-project-/) ****** temporary hosting on Github pages **
 
 
 
