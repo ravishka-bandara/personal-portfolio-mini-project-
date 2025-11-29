@@ -268,15 +268,16 @@ nav{
 
 #copyright{
     text-align: center; /*make block centered*/
+    margin-top: 0.5rem;
 }
 
 
 #copyright p{
     color: #ffffff;
-    background: #3333338f;
+    background: #bbb2b28f;
     border-radius: 50px;
     border: 1px solid #737272;
-    margin-top: 40px;
+    margin-top: 0.2rem !important;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem; /*UP RIGHT DOWN LEFT */
     display: inline-block; /* border wrap over text */  
 }
@@ -325,8 +326,9 @@ nav{
     font-style: italic;
     opacity: 0.9;
     font-size: 1.5rem !important; /* use this command like thing to forcly add it "!important" */
+    margin-bottom: 0.5rem !important;
+    background: red;
 }
-
 
 
 /*====hamberger menu styles======*/
