@@ -439,8 +439,8 @@ nav{
     }
 
     .profile-photo{
-        width: 200px;
-        height: 200px;
+        width: 280px;
+        height: 280px;
     }
 
     #home h1{
@@ -490,8 +490,8 @@ nav{
 
  @media screen and (max-width:480px){
     .profile-photo{
-        width: 150px;
-        height: 150px;
+        width: 280px;
+        height: 280px;
     }
 
     #home h1{
