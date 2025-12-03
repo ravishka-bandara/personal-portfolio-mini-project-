@@ -46,7 +46,7 @@ logo.addEventListener('click',()=>{
 
 // close modal when x clicked
 
-logoModal.addEventListener('click', ()=>{
+closeModal.addEventListener('click', ()=>{
     logoModal.classList.remove('active');
 });
 
