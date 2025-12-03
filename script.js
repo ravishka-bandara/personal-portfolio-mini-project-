@@ -102,7 +102,7 @@ if(window.innerWidth <= 768){
     //hide nav bar when scrolling show when stopped scroll
 
     nav.classList.add('hidden');
-    clearTimeout('scrollTimeout');
+    clearTimeout(scrollTimeout);
     scrollTimeout = setTimeout(() => {
         nav.classList.remove('hidden');
         }, 550);
