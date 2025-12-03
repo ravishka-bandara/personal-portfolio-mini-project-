@@ -187,8 +187,10 @@ nav{
 
 #skills{
     padding: 4rem 2rem;
-    
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #skills h2{
@@ -205,24 +207,73 @@ nav{
     gap: 1rem;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
-.skill{
-    background: #5f0303e3;
-    color: #ecf0f1;
-    padding: 0.8rem 1.5rem;
-    border-radius: 25px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+
+.skill-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 180px;
+    text-align: center;
     transition: all 0.3s ease;
-    cursor: pointer;
-    
 }
 
-.skill:hover{
-    transform: translateY(-15px) scale(1.1);
-    background: #da1313;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    border-color: #c1121f;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.8rem;
+    filter: brightness(0) invert(1); /* Makes icons white */
+}
+
+.skill-name {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #c1121f, #ff6b6b);
+    transition: width 1.5s ease-in-out;
+}
+
+/* Different skill levels */
+.html-level { width: 90%; }
+.css-level { width: 85%; }
+.js-level { width: 75%; }
+.git-level { width: 80%; }
+.vscode-level { width: 95%; }
+
+/* Keep your existing .skills-container but update it */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem; /* Increased gap */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
@@ -249,6 +300,36 @@ nav{
     border-left: 5px solid #910606;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
+}
+
+.project-actions{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.demo-btn, .code-btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.demo-btn{
+    background: #003f7a;
+    color: white;
+    border: 2px solid #003f7a;
+}
+
+.code-btn{
+    background: transparent;
+    color: #003f7a;
+    border: 2px solid #003f7a;
+}
+
+.demo-btn:hover, code-btn:hover{
+    transform: translateY(-3px);
 }
 
 .project:hover{
@@ -451,6 +532,13 @@ nav{
 
  @media screen and (max-width:768px) { /*edjusting navigation for others*/
 
+    
+     body{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        height: auto;
+        min-height: 100vh;
+     }
 
     .logo-img{
         height: 50px; /*make smaller on phone*/
@@ -479,17 +567,6 @@ nav{
         margin: 1rem;
     }
 
-/*skills section*/
-
-    .skills-container{
-        gap: 0.5rem;
-    }
-
-    .skill{
-        padding: 10px 50px;
-        font-size: 0.9rem;
-        background: #003f7a;
-    }
 
 /*project section*/
 
@@ -522,12 +599,6 @@ nav{
     #home h1{
         font-size: 1.8rem;
     }
-
-    .skills-container{
-        flex-direction: column;
-        align-items: center;
-    }
-
    
  }
 
