@@ -78,7 +78,7 @@ function handleAllscroll(){
 
     //background image animations
     const scrolled = window.scrollY;
-    body.style.backgroundPositionY = `${scrolled * 0.3}px`; // background move slower than scroll
+    body.style.backgroundPositionY = `-${scrolled * 0.3}px`; // background move slower than scroll
 
 
 // mobile logo show and hide
