@@ -588,9 +588,13 @@ nav{
         left: -100%;
         top: 0;
         flex-direction: column;
-        background: rgba(32, 32, 32, 0.08);  /*  rgba(92, 15, 15, 0.8); Dark transparent */
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        background-image: url('../images/hambmenu.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         width: 100%;
         height: 100vh;
         text-align: center;
