@@ -263,7 +263,7 @@ nav{
 .html-level { width: 90%; }
 .css-level { width: 85%; }
 .js-level { width: 75%; }
-.git-level { width: 80%; }
+.git-level { width: 20%; }
 .vscode-level { width: 95%; }
 
 /* Keep your existing .skills-container but update it */
