@@ -113,3 +113,13 @@ if(window.innerWidth <= 768){
 
 window.addEventListener('scroll', handleAllscroll);
 window.addEventListener('resize', handleAllscroll);
+
+//background image animations
+
+body.style.backgroundPositionY = `${scrolled * 0.3}px`; // background move slower than scroll
+
+if(scrolled > 200){
+    body.classList.add('scrolled');
+} else {
+    body.classList.remove('scrolled');
+}
