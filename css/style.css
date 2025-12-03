@@ -251,6 +251,36 @@ nav{
     transition: all 0.3s ease;
 }
 
+.project-actions{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.demo-btn, .code-btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.demo-btn{
+    background: #003f7a;
+    color: white;
+    border: 2px solid #003f7a;
+}
+
+.code-btn{
+    background: transparent;
+    color: #003f7a;
+    border: 2px solid #003f7a;
+}
+
+.demo-btn:hover, code-btn:hover{
+    transform: translateY(-3px);
+}
+
 .project:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -451,6 +481,13 @@ nav{
 
  @media screen and (max-width:768px) { /*edjusting navigation for others*/
 
+    
+     body{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        height: auto;
+        min-height: 100vh;
+     }
 
     .logo-img{
         height: 50px; /*make smaller on phone*/
