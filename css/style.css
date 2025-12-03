@@ -536,6 +536,23 @@ nav{
  /*hamburger menu mobile responsive*/
 
  @media screen and (max-width: 768px) {
+
+    /*mobile bg-image cutoff issue*/
+
+    body{
+        background-attachment: scroll !important;
+        background-position: center center !important;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #contact{ /*footer has background */
+        background: rgba(189, 157, 152, 0);
+        position: relative;
+        z-index: 1;
+    }
+
+
     .hamburger{
         display: flex;
     }   
@@ -614,7 +631,9 @@ nav{
     .hamburger.active .bar:nth-child(3){
         transform: rotate(-45deg) translate(6.5px, -6.5px);
     }
- }
+
+
+}
 
 /*disable scroll when menu open*/
 
