@@ -476,13 +476,6 @@ nav{
 /*====hamberger menu styles======*/
 
 
-.logo{
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: bold;
-    z-index: 1001;
-}
-
 .nav-menu{
     display: flex;
     gap: 2rem;
@@ -572,7 +565,7 @@ nav{
 
 /*project section*/
 
-    #project{
+    #projects{
         padding: 2rem 1rem;
     }
 /*skill section*/
@@ -616,13 +609,6 @@ nav{
 
     /*skill section*/
 
-    .skill-card{
-        margin-top: 1.5rem;
-    }
-
-    .skills-container{
-        max-width: 1400px;
-    }
    
  }
 
