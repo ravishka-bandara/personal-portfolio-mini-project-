@@ -650,10 +650,10 @@ nav{
         left: -100%;
         top: 0;
         flex-direction: column;
-        background: rgba(0, 0, 0, 0.7) url('../images/3.jpg'); /* hamburger menu bg image with darko verlay */
+        background: rgba(0, 0, 0, 0.7) url('../images/4.jpg'); /* hamburger menu bg image with darko verlay */
+        background-blend-mode: overlay; /*make image darkk*/
         background-size: cover;
         background-position: center;
-        background-blend-mode: darken; /*make image darkk*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         backdrop-filter: blur(10px);
