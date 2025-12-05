@@ -573,6 +573,10 @@ nav{
     #project{
         padding: 2rem 1rem;
     }
+
+    .skill-card{
+        margin-top: 1.5rem;
+    }
  }
 
  /*contact section*/
