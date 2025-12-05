@@ -282,15 +282,6 @@ nav{
 .git-level { width: 50%; }
 .vscode-level { width: 95%; }
 
-/* Keep your existing .skills-container but update it */
-.skills-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem; /* Increased gap */
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
 
 /*porject section*/
@@ -528,12 +519,14 @@ nav{
     
      body{
         background-image: url('../images/2.jpg'); /*mobile bg image*/
-        background-attachment: scroll !important;
-        background-position: center center !important;
+        background-attachment: fixed !important;
+        background-position: center !important;
         height: auto;
         min-height: 100vh;
         background-size: cover;
+        background-position-y: center !important;
      }
+
 
     .logo-img{
         height: 50px; /*make smaller on phone*/
