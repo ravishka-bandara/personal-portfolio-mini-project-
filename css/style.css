@@ -199,7 +199,6 @@ nav{
     font-size: 2rem;
 }
 
-
 .skills-container{
     display: flex;
     justify-content: center;
@@ -599,6 +598,26 @@ nav{
     #home h1{
         font-size: 1.8rem;
     }
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .skill-card{
+       padding: 1rem;
+       margin-top: 1rem;
+    }
+
+    .skill-icon{
+        width: 40px;
+        height: 40px;
+    }
+
    
  }
 
@@ -707,6 +726,23 @@ nav{
         transform: rotate(-45deg) translate(6.5px, -6.5px);
     }
 
+    /*skill card horizontal */
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .skill-card{
+        width: 60%;
+        max-width: 300px;
+        margin-top: 1rem;
+    }
+
 
 }
 
@@ -810,6 +846,20 @@ nav{
         width: 40px;
         transition: all 0.4s ease;
     }
+
+    /*desctop horizontal raw*/
+
+    .skills-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
     
+    .skill-card{
+        width: 180px;
+    }
   
 }
