@@ -328,7 +328,7 @@ nav{
     border: 2px solid #003f7a;
 }
 
-.demo-btn:hover, code-btn:hover{
+.demo-btn:hover, .code-btn:hover{
     transform: translateY(-3px);
 }
 
