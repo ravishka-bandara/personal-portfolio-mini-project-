@@ -54,14 +54,22 @@ html {
 }
 
 nav{
-   /* background: #c1121e4f;*/
     padding: 1rem 0;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    background: transparent;
+    transition: all 0.3s ease;
 }
 
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+}
 
 
 #home{
@@ -271,7 +279,7 @@ nav{
 .html-level { width: 90%; }
 .css-level { width: 85%; }
 .js-level { width: 75%; }
-.git-level { width: 20%; }
+.git-level { width: 50%; }
 .vscode-level { width: 95%; }
 
 /* Keep your existing .skills-container but update it */
@@ -467,23 +475,6 @@ nav{
 
 /*====hamberger menu styles======*/
 
-.nav{
-    background: #910606;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%; /*max width to full width*/
-    margin: 0;
-    padding: 0 2rem;/*add some padding on sides*/
-}
 
 .logo{
     color: #ffffff;
@@ -586,12 +577,15 @@ nav{
     }
 /*skill section*/
 
-    .skill-card{
-        margin-top: 1.5rem;
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
     }
 
-    .skills-container{
-        max-width: 1400px;
+    .skill-card{
+        width: 100%;
+        max-width: 300px;
     }
  }
 
@@ -842,5 +836,4 @@ nav{
     }
     
   
-    
 }
