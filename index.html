@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- view point to make other screens responsive-->
+    <title>Ravishka Bandara - portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desctopresponsive.css">
+    <link rel="stylesheet" href="css/mobileresponsive.css">
+</head>
+<body>
+
+<!--Navigation menu-->
+    <nav>
+        <div class="nav-container">
+
+            <div class="logo">
+                <img src="images/logo2.png" alt="logo ravishka bandara" class="logo-img"> <!-- when changing logo must change img path also in logo modal in index.html too -->
+            </div>
+
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+<!--for hamburger menu-->
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+
+    </nav>
+
+<!--Hero section-->
+    <header id="home">
+        <img src="images/profile.png" alt="ravishka_bandara_image" class="profile-photo">
+        <h1>Ravishka Bandara</h1>
+        <p>IT Undergraduate | Web Developer</p>
+    </header>
+    <button class="cta-button" onclick="scrolltoprojects()">view my projects ↓</button>
+
+<!--About section-->
+    <section id="about">
+        <h2>About me</h2>
+        <p>I am Ravishka Bandara, a second-year undergraduate student pursuing a degree in Information and Communication Technology at Rajarata University of Sri Lanka. I am deeply passionate about technology and am always eager to explore, learn, and apply new concepts within the ICT industry. I thrive on the challenge of discovering emerging trends and mastering new skills.</p>
+    </section>
+
+<!--Skill section-->
+
+<section id="skills">
+    <h2>My skills</h2>
+
+<div class="skills-container">
+    <div class="skill-card">
+        <img src="./images/html-icon.png" alt="HTML icon" class="skill-icon">
+        <span class="skill-name">HTML</span>
+        <div class="skill-bar">
+            <div class="skill-level html-level"></div>
+        </div>
+    </div>
+
+    <div class="skill-card">
+        <img src="./images/css-icon.png" alt="Css icon" class="skill-icon">
+        <span class="skill-name">CSS</span>
+        <div class="skill-bar">
+            <div class="skill-level css-level"></div>
+        </div>
+    </div>
+
+    <div class="skill-card">
+        <img src="./images/js-icon.png" alt="JavaScript icon" class="skill-icon">
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar">
+            <div class="skill-level js-level"></div>
+        </div>
+    </div>
+
+    <div class="skill-card">
+        <img src="./images/github-icon.png" alt="Git Icon" class="skill-icon">
+        <span class="skill-name">Git & GitHub</span>
+        <div class="skill-bar">
+            <div class="skill-level git-level"></div>
+        </div>
+    </div>
+    
+    <div class="skill-card">
+        <img src="images/vscode-icon.png" alt="VS Code Icon" class="skill-icon">
+        <span class="skill-name">VS Code</span>
+        <div class="skill-bar">
+            <div class="skill-level vscode-level"></div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+<!--Project section-->
+    <section id="projects">
+        <h2>My projects</h2>
+        
+        <div class="project">
+            <h3>Weather app</h3>
+            <p>A clean wheather app that shows weather for any city.</p>
+
+            <p><strong>overview:</strong>I built this to learn how to use APIs and javascript. It gives users quick weather updates.</p>
+
+            <p><strong>Features</strong></p>
+            <ul>
+                <li>Fetches live weather data from APIs</li>
+                <li>Showes temperature and conditions</li>
+                <li>works on both phones and computers</li>
+            </ul>
+
+            <p><strong>Tech Used:</strong> HTML, CSS, JavaScript, Weather API</p>
+            <p><strong>What I Learned:</strong> I learned how to work with API data and handle errors in JavaScript.</p>
+
+            <div class="project-actions">
+    <a href="#" class="demo-btn">Live Demo Coming Soon</a>
+    <a href="https://github.com/ravishka-bandara" class="code-btn">View Code</a>
+</div>
+ 
+        </div>
+
+    </section>
+
+<!--Contact section-->    
+
+<footer id="contact">
+    <h2>Get in touch with me</h2>
+    <div class="contact-links">
+        <a href="mailto:ravishkabandara01@gmail.com" class="contact-btn email-btn">
+            <img src="images/email-icon.png" alt="Email" class="btn-icon">
+            Email Me
+        </a> 
+        <a href="https://github.com/ravishka-bandara" class="contact-btn github-btn" target="_blank">
+            <img src="images/github-icon.png" alt="Github" class="btn-icon">
+            Github
+        </a>
+        <a href="https://www.linkedin.com/in/ravishka-bandara-b82a2b336/" class="contact-btn linkedin-btn" target="_blank">
+            <img src="images/linkedin-icon.png" alt="Linkedin" class="btn-icon">
+            Linked In
+        </a>
+    </div><br><br>
+    <p class="contact-motto">Let's build something beyond future.</p>
+
+
+<div id="copyright">
+    <p>&copy; 2025 Ravishka bandara. All Rights Reserved.</p>
+</div>  
+</footer>  
+
+<!-- logo modal for when click logo image enlarge image -->
+
+<div class="logo-modal" id="logoModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img src="images/logo2.png" alt="ravishka bandara logo" class="modal-logo">
+        <h3>Ravishka Bandara</h3>
+        
+    </div>
+</div>
+
+
+<script src="script.js"></script> <!--put script file link at the ottom for better perfermence and fast loading -->
+    
+</body>
+</html>
