@@ -573,9 +573,14 @@ nav{
     #project{
         padding: 2rem 1rem;
     }
+/*skill section*/
 
     .skill-card{
         margin-top: 1.5rem;
+    }
+
+    .skills-container{
+        max-width: 1400px;
     }
  }
 
@@ -602,6 +607,16 @@ nav{
 
     #home h1{
         font-size: 1.8rem;
+    }
+
+    /*skill section*/
+
+    .skill-card{
+        margin-top: 1.5rem;
+    }
+
+    .skills-container{
+        max-width: 1400px;
     }
    
  }
