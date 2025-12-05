@@ -524,7 +524,6 @@ nav{
         height: auto;
         min-height: 100vh;
         background-size: cover;
-        background-position-y: center !important;
      }
 
 
@@ -610,21 +609,6 @@ nav{
  /*hamburger menu mobile responsive*/
 
  @media screen and (max-width: 768px) {
-
-    /*mobile bg-image cutoff issue*/
-
-    body{
-        background-attachment: scroll !important;
-        background-position: center center !important;
-        height: auto;
-        min-height: 100vh;
-    }
-
-    #contact{ /*footer has background */
-        background: rgba(189, 157, 152, 0);
-        position: relative;
-        z-index: 1;
-    }
 
 
     .hamburger{

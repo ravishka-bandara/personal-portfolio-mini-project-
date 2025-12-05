@@ -77,9 +77,18 @@ function handleAllscroll(){
     const logoImg = document.querySelector('.logo-img');
 
     //background image animations
-    const scrolled = window.scrollY;
-    body.style.backgroundPositionY = `-${scrolled * 0.3}px`; // background move slower than scroll
 
+    const scrolled = window.scrollY;
+
+    //fixing for only apply parallax on desktop (width > 768px )
+
+    if (window.innerWidth > 768){
+        body.style.backgroundPositionY = `-${scrolled*0.3}px`;
+    } else {
+        // on mobile no parallax keep bg fixed man
+        body.style.backgroundPositionY = 'center';
+        body.style.backgroundAttachment = 'fixed';
+    }
 
 // mobile logo show and hide
 
