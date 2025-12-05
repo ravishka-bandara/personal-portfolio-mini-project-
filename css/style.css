@@ -299,8 +299,12 @@ nav{
     font-size: 2rem;
 }
 
+
+
 .project{
-    background: #84b9a3;
+    color: white;
+    font-size: 1.1rem;
+    background: #84b9a300;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -324,15 +328,15 @@ nav{
 }
 
 .demo-btn{
-    background: #003f7a;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     border: 2px solid #003f7a;
 }
 
 .code-btn{
     background: transparent;
-    color: #003f7a;
-    border: 2px solid #003f7a;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .demo-btn:hover, .code-btn:hover{
@@ -646,10 +650,10 @@ nav{
         left: -100%;
         top: 0;
         flex-direction: column;
-        background: rgba(0, 0, 0, 0.7) url('../images/3.jpg'); /* hamburger menu bg image with darko verlay */
+        background: rgba(0, 0, 0, 0.7) url('../images/4.jpg'); /* hamburger menu bg image with darko verlay */
+        background-blend-mode: overlay; /*make image darkk*/
         background-size: cover;
         background-position: center;
-        background-blend-mode: darken; /*make image darkk*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         backdrop-filter: blur(10px);
@@ -728,10 +732,9 @@ nav{
 }
 
 .modal-content{
-    background: linear-gradient(135deg, #3f3d3d 0%, #5f0303e3 100%);
     margin: auto;
-    padding: 2rem;
-    border-radius: 20px;
+    padding: 4rem;
+    border-radius: 0px;
     text-align: center;
     transform: scale(0.7);
     transition: transform 0.4s ease;
