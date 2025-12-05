@@ -299,8 +299,12 @@ nav{
     font-size: 2rem;
 }
 
+
+
 .project{
-    background: #84b9a3;
+    color: white;
+    font-size: 1.1rem;
+    background: #84b9a300;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -324,15 +328,15 @@ nav{
 }
 
 .demo-btn{
-    background: #003f7a;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     border: 2px solid #003f7a;
 }
 
 .code-btn{
     background: transparent;
-    color: #003f7a;
-    border: 2px solid #003f7a;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .demo-btn:hover, .code-btn:hover{
