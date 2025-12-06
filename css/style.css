@@ -20,7 +20,7 @@ body{
     /*background-color: #aca1069f;*/
     /*background: linear-gradient(135deg, #ff414198 0%, #850f00 100%);  background radient */
     /*default desktop bg image*/
-    background-image: url('../images/background1.jpg'); /* .. means go for portfolio folder*/
+    background-image: url('../images/bg1.jpg'); /* .. means go for portfolio folder*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
