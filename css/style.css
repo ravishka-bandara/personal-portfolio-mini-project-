@@ -242,7 +242,7 @@ nav{
 .skill-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    border-color: #c1121f;
+    border-color: #ffffff;
 }
 
 .skill-icon {
@@ -304,11 +304,11 @@ nav{
 .project{
     color: white;
     font-size: 1.1rem;
-    background: #84b9a300;
+    background: #08060654;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
-    border-left: 5px solid #910606;
+    border-left: 5px solid #ffffff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
@@ -341,12 +341,14 @@ nav{
 
 .demo-btn:hover, .code-btn:hover{
     transform: translateY(-3px);
+    background-color: #690303;
+    color: white;
 }
 
 .project:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    border-left: 5px solid #c1121f;
+    border-left: 5px solid #ff00118f;
 }
 
 .project h3{
@@ -564,6 +566,8 @@ nav{
     #projects{
         padding: 2rem 1rem;
     }
+
+}
 /*skill section*/
 
     .skills-container{
@@ -576,7 +580,7 @@ nav{
         width: 100%;
         max-width: 300px;
     }
- }
+ 
 
  /*contact section*/
 
