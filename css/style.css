@@ -304,11 +304,11 @@ nav{
 .project{
     color: white;
     font-size: 1.1rem;
-    background: #84b9a300;
+    background: #080606b2;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
-    border-left: 5px solid #910606;
+    border-left: 5px solid #ffffff;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
@@ -564,6 +564,8 @@ nav{
     #projects{
         padding: 2rem 1rem;
     }
+
+}
 /*skill section*/
 
     .skills-container{
@@ -576,7 +578,7 @@ nav{
         width: 100%;
         max-width: 300px;
     }
- }
+ 
 
  /*contact section*/
 
