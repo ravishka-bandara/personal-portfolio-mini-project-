@@ -299,6 +299,9 @@ nav{
     font-size: 2rem;
 }
 
+#projects h3{
+    color: rgb(255, 0, 0);
+}
 
 
 .project{
