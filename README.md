@@ -49,8 +49,8 @@
 
 
 ## 📊 **Progress Overview**
-[Progress](personal-portfolio-mini-project-dpg3tj802.vercel.app) ****** hosting on versel**
+[Progress](https://ravishka-bandara.github.io/personal-portfolio-mini-project-/) ****** hosting on gh-pages**
 
 
 
-Last Updated: {2025-12-14}
+Last Updated: {2025-12-23}
